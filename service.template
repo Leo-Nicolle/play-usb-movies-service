@@ -1,0 +1,10 @@
+ [Unit]
+ Description=Play files on USB plugin
+ After=multi-user.target
+
+ [Service]
+ Type=idle
+ ExecStart=PATH/play-movies.sh
+
+ [Install]
+ WantedBy=multi-user.target
